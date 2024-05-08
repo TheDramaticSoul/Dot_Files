@@ -1,0 +1,34 @@
+[user]
+  name = Chad Reynolds        # <name>
+  email = cjreynol13@aol.com  # <email>
+[init]
+  defaultBranch = main
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore_global
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+[push]
+	default = simple
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = auto
+	ui = auto
+[merge]
+	summary = true
+[safe]
+	directory = *
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[url "git://github.com/ghc/packages-"]
+	insteadOf = git://github.com/ghc/packages/
+[url "http://github.com/ghc/packages-"]
+	insteadOf = http://github.com/ghc/packages/
+[url "https://github.com/ghc/packages-"]
+	insteadOf = https://github.com/ghc/packages/
+[url "ssh://git@github.com/ghc/packages-"]
+	insteadOf = ssh://git@github.com/ghc/packages/
+[url "git@github.com:/ghc/packages-"]
+	insteadOf = git@github.com:/ghc/packages/

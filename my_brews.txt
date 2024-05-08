@@ -1,0 +1,13 @@
+automake
+boost
+cabal-install
+ctags
+irssi
+mono
+nasm
+pkg-config
+scons
+sdl2_gfx
+sdl2_ttf
+sphinx-doc
+vim

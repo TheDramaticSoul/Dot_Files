@@ -1,0 +1,49 @@
+# checked/compiled/build/included files
+*.agdai
+*.cede
+MAlonzo
+__pycache__
+*.info
+*.o
+*.hi
+*.py[cod]
+bin
+obj
+build
+dist
+dist-newstyle
+packages
+MANIFEST
+*.egg-info
+.ghc.environment*
+
+# TeX compiled/output files
+*.aux
+*.bbl
+*.blg
+*.toc
+
+# OS files
+Icon
+.DS_Store
+
+# log and profile outputs
+*.log
+*.prof
+
+# Editor/tag files
+\#*\#
+*.sw[op]
+tags
+.vs
+*.code-workspace
+tasks.json
+
+# local config/sandbox files (like Django/cabal)
+local_settings.py
+cabal.project.local
+.cabal-sandbox
+cabal.sandbox.config
+
+# sqlite
+*.sqlite3
